@@ -74,7 +74,7 @@ ${response.installation}
 ## Usage
 ${response.usage}
 ## License
-${response.license}
+License under the [${response.license}License](LICENSE) 
 ## Contributing
 ${response.contributing}
 ## Tests
