@@ -1,29 +1,29 @@
-# Good README Generator
+# Good readme
 
 ## Description
-    When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+    Lkfhdjsjhdjfkagfalsdfhasdjklcfasd
 
 ## Content
-    Your task is to create a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md) as a reminder of everything that a quality, professional README contains. The application will be invoked with the following command:node index.js
+    ajskbhdfkjasdfhaslhjflasd
 
 ## Instalation
-     NA
+    askdjfkasljdfnhlkasjdf;asmjlfda
 
 ## Usage
-    GitHub repository with a unique name and a README describing pr
+    alskdnflasndflkasndkflasdf
 
 ## License
     License under the [MIT License](LICENSE)
 
 ## Contributing
-    You are required to submit the following: github id
+    aksfndkjsandflasfa
 
 ## Tests
-    NONE
+    alsfdnlksadfn;laksdnf
 
 ## Questions
     Felipe Ferreira<br>
     Contact information:<br>
     https://github.com/felipesqf<br>
     felipesqf@gmail.com<br>
-    NONE
+    alsdnflksadnflfan
