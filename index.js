@@ -6,6 +6,16 @@ const questions = [];
 inquirer
   .prompt([
     {
+        type: "input",
+        message: "Please enter your Github user",
+        name: "github"
+      },
+      {
+        type: "input",
+        message: "Please enter your email",
+        name: "email"
+      },
+    {
       type: "input",
       message: "Please enter the Project Title",
       name: "title"
@@ -55,21 +65,24 @@ inquirer
     const file = `# Title
     ${response.title}
 ## Description
-    ${response.description}
+${response.description}
 ## Content
-    ${response.tableOfContents}
+${response.tableOfContents}
 ## Instalation
-    ${response.installation}
+${response.installation}
 ## Usage
-    ${response.usage}
+${response.usage}
 ## License
-    ${response.license}
+${response.license}
 ## Contributing
-    ${response.contributing}
+${response.contributing}
 ## Tests
-    ${response.tests}
+${response.tests}
 ## Questions
-    ${response.questions};`
+Contact information:
+https://github.com/${response.github};
+${response.email};
+${response.questions};`
 
 
     fs.writeFile('readmet.md', file, function (err) {
