@@ -1,11 +1,15 @@
 var fs = require('fs');
 var inquirer = require("inquirer");
 // array of questions for user
-const questions = [];
 
 function init() {
 inquirer
   .prompt([
+    {
+        type: "input",
+        message: "Please enter your Name",
+        name: "name"
+      },
     {
         type: "input",
         message: "Please enter your Github user",
@@ -81,12 +85,13 @@ ${response.contributing}
 ## Tests
 ${response.tests}
 ## Questions
+${response.name}<br>
 Contact information:<br>
 https://github.com/${response.github}<br>
 ${response.email}<br>
 ${response.questions}`
 
-    fs.writeFile('readmet.md', file, function (err) {
+    fs.writeFile('generatedReadme.md', file, function (err) {
         if (err) throw err;
         console.log('Saved!');
       });
