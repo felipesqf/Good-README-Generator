@@ -1,21 +1,21 @@
 # Title
-    fleiperkdf
+    felifsdhjf
 ## Description
-ksdfjskdofsdf
+sdkjfsdkljfnh
 ## Content
-sdfjksdlfjhsdkf
+sdfkjsdk
 ## Instalation
-
+jsdfkjfds
 ## Usage
-
+kldsfsdf
 ## License
-mit
+License under the [OtherLicense](LICENSE) 
 ## Contributing
-dfskds
+ksjdfkdsf
 ## Tests
-sdfkdsf
+kjsfdkjfds
 ## Questions
 Contact information:<br>
 https://github.com/felipesqf<br>
 felipesqf@gmail.com<br>
-sdfkfds
+ksjdfkfd

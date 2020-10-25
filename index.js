@@ -42,9 +42,10 @@ inquirer
         name: "usage"
     },
     {
-        type: "input",
+        type: "list",
         message: "License",
-        name: "license"
+        name: "license",
+        choices:["MIT", "Other"]
     },
     {
         type: "input",
@@ -74,7 +75,7 @@ ${response.installation}
 ## Usage
 ${response.usage}
 ## License
-License under the [${response.license}License](LICENSE) 
+License under the [${response.license} License](LICENSE) 
 ## Contributing
 ${response.contributing}
 ## Tests
@@ -84,7 +85,6 @@ Contact information:<br>
 https://github.com/${response.github}<br>
 ${response.email}<br>
 ${response.questions}`
-
 
     fs.writeFile('readmet.md', file, function (err) {
         if (err) throw err;
