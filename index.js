@@ -3,6 +3,7 @@ var inquirer = require("inquirer");
 // array of questions for user
 const questions = [];
 
+function init() {
 inquirer
   .prompt([
     {
@@ -79,10 +80,10 @@ ${response.contributing}
 ## Tests
 ${response.tests}
 ## Questions
-Contact information:
-https://github.com/${response.github};
-${response.email};
-${response.questions};`
+Contact information:<br>
+https://github.com/${response.github}<br>
+${response.email}<br>
+${response.questions}`
 
 
     fs.writeFile('readmet.md', file, function (err) {
@@ -91,14 +92,8 @@ ${response.questions};`
       });
 
   })
-
+}
 // function to write README file
 
-
-// function to initialize program
-// function init() {
-
-// };
-
 // // function call to initialize program
-// init();
+init();
