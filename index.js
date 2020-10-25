@@ -68,28 +68,38 @@ inquirer
     }
   ])
   .then(function(response) {
-    let file = `# ${response.title}`
-    + "\n" + `## Description
+    let file = 
+    `# ${response.title}`
+    
+    + "\n\n" +
+    `## Description
     ${response.description}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## Content
     ${response.tableOfContents}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## Instalation
     ${response.installation}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## Usage
     ${response.usage}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## License
     License under the [${response.license} License](LICENSE)` 
-    + "\n" + 
+    + "\n\n" + 
+
     `## Contributing
     ${response.contributing}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## Tests
     ${response.tests}`
-    + "\n" + 
+    + "\n\n" + 
+
     `## Questions
     ${response.name}<br>
     Contact information:<br>
