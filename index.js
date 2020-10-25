@@ -2,7 +2,7 @@ let fs = require('fs');
 let inquirer = require("inquirer");
 // array of questions for user
 
-function init() {
+init = () => {
 inquirer
   .prompt([
     {
